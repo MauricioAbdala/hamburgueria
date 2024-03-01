@@ -1,0 +1,35 @@
+.modal-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+
+  &var {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+}
+
+.green {
+  background: var(--color-primary-green);
+  height: 54px;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+}
+
+.custom-hr {
+  border: 1px solid var(--color-gray-200);
+  margin: 15px;
+}

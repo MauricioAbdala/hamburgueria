@@ -1,0 +1,25 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: #BDBDBD;
+  width: 100%;
+  max-width: 106px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 600;
+
+  &.larg {
+    max-width: 470px;
+    height: 60px;
+    margin: auto;
+    padding: rem;
+  }
+}
+
+.btn:hover {
+  background: var(--color-primary-green);
+}

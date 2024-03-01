@@ -1,0 +1,124 @@
+.flexbox {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 1rem;
+
+  @media (max-width: 680px) {
+    flex-direction: row-reverse;
+    justify-content: left;
+
+    .imgcart {
+      display: flex;
+      align-items: end;
+      margin-right: 30px;
+      margin-top: -115px;
+    }
+  }
+}
+
+.green {
+  color: var(--color-primary-green);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -18px;
+
+  @media (max-width: 680px) {
+    flex-direction: column;
+    margin-left: -100px;
+  }
+}
+
+.inputfake {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 2px solid var(--color-gray-200);
+  border-radius: 8px;
+  width: 22.8125rem;
+  height: 60px;
+  align-items: center;
+
+  @media (max-width: 680px) {
+    display: flex;
+    width: 100%;
+    margin-left: 80px;
+    width: clamp(0rem, 93vw, 31.25rem);
+  }
+}
+
+input {
+  outline: none;
+  font-size: 1rem;
+
+  @media (max-width: 680px) {
+    display: flex;
+    width: clamp(0rem, 6vw, 31.25rem);
+  }
+}
+
+input::placeholder {
+  color: var(--color-gray-200);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  outline: none;
+}
+
+.header {
+  height: 90px;
+  background: var(--color-gray-0);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+
+  @media (max-width: 680px) {
+    width: 100%;
+    width: 680px;
+    height: 9.375rem;
+  }
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: 30px;
+
+  @media (max-width: 680px) {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 100%;
+    width: clamp(1rem, 75vw, 18.75rem);
+  }
+}
+
+
+.count {
+  display: flex;
+  background: var(--color-primary-green);
+  width: 20px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  color: #FFF;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 0px;
+  margin-top: -20px;
+  margin-left: -10px;
+
+  @media (max-width: 680px) {
+    margin-top: -130px;
+    margin-left: -55px;
+  }
+}
+
+.img {
+  margin-left: 90px;
+}

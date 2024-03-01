@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+
+.flexbox {
+    display: flex;
+    gap: 1rem;
+}
+
+.img {
+    background: var(--color-gray-200);
+    width: 20%;
+    border-radius: 5px;
+}
